@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOPINATH</title>
+    <link rel="stylesheet" href="STY.css">
+        <!-- Google Fonts - Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+    <!-- Font Awesome CSS-->
+        <script src="https://kit.fontawesome.com/8c05b2d651.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+
+            <img src="Gopinath.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Internship">Internship</a></li>
+               <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+           </ul>
+           <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p class="Sub-header-text" style="font-size: 20px; margin-bottom: 10px;"> Data Scientist| Python Developer</p>
+            <h1>Hi,I'm <span>GOPINATH</span><br>from Kanchipuram.</h1>
+            </div>       
+    </div>
+</div> 
+
+<div id="About" >
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="gopi.jpg">
+            </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my online portfolio. I am Gopinath D, a passionate Data Science and Python Developer Completed a BCA at Sri Sankara Arts and Science College in Kanchipuram, Tamil Nadu. My skills include Python (with libraries like NumPy, Pandas and others), web development (HTML5, CSS3, JavaScript). Driven by curiosity and continuous learning, I have completed projects such as a dynamic personal portfolio website and specialized courses in data science and AI. Additionally, I engage in stock market analysis, enhancing my analytical skills. Explore my projects to learn more about my journey in technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">SKILLS</p>
+                    <P class="tab-links" onclick="opentab('Education')">EDUCATION</P>
+                    <P class="tab-links" onclick="opentab('Ceritificate')">CERITIFICATE</P>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PROGRAMMING LANGUAGE</span></li>
+                        <li>PYTHON</li>
+                        <li>MYSQL</li>
+                        <li>C PROGRAMMING</li>
+                        <li>C++</li>
+                        <li><span>MS OFFICE</span></li>
+                        <li>WORD</li>
+                        <li>EXCELL</li>
+                        <li>POWERPOINT</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><strong>SRI SANKARA ART AND SCIENCE COLLEGE,KANCHIPURAM.</strong><br>
+                            Bachelor of Computer Applications (BCA)<br>
+                            <span class="year">COMPLETED 2021-2024</span><br>
+                           I Recently Completed my Bachelor of Computer Applications (BCA) degree and am looking for a job as a  Data Scientist and Python developer.
+                        </li><br>
+                    <li><strong>BHARATHIDASAN MATRIC HR.SEC.SCHOOL,KANCHIPPURAM.</strong><br>COMPLETED 12th GRADE</br>
+                        <span class="year">Year: 2020 - 2021</span><br>
+                        Percentage: 75.9%
+                    </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Ceritificate">
+                    <ul>
+                        
+                        <li>INTRODUCTION TO DATA SCIENCE<br><span>MARCH 10,2024</span></br></li>
+                        <li>AI WORKSHOP ON BE 10X<br><span>MARCH 03,2024</span></br></li>
+                        <li>HDCA Course AT CSC COMPUTER EDUCATION<br><span>2022-2023</span></br></li>
+                       
+    
+                    </ul>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------Internship And Work Experience---------------------------->
+
+<div id="Internship">
+    <div class="container">
+        <h1 class="Sub-title">Internship Experience</h1>
+        <div class="Internship-list">
+            <div> 
+                <h2>SHIASH INFO TECH PRIVATE LIMITED</h2><br>
+                <p><strong><li>Role:</strong> Data Science Intern</p>
+                <p><strong><li>Duration:</strong> July 2024 -  Present</p>
+                <p><strong><li>Role Description:</strong>
+                    As a Data Science Intern, I am responsible for working with diverse datasets to derive meaningful insights and predict future trends to support business analysis. I utilize various Python libraries, such as Pandas, NumPy, and Matplotlib, to analyze data, build predictive models, and provide data-driven recommendations to improve business strategies. My role involves collaborating with the team to understand business requirements, cleaning and preprocessing data, performing exploratory data analysis, and presenting findings to stakeholders.</p>
+            </div>
+            <!-- Add more internship entries as needed -->
+        </div>
+    </div>
+</div>
+
+<!-------------------PROJECTS---------------------------->
+<div id="Projects">
+    <div class="container">
+        <h1 class="Sub-title">My Projects</h1>
+        <div class="Portfolio-list">
+            <div> 
+                <i class="fas fa-laptop-code"></i>
+                <h2>HUMANS SENTIMENTS</h2>
+                <p> Developed a Sentiment Analyzer web application using HTML, CSS, and JavaScript, capable of analyzing text sentiment by counting positive and negative words. Implemented functionality using arrays to determine sentiment, and designed clear input and output functions for resetting the input field and clearing the sentiment output. Created a user-friendly interface featuring an input field, analyze button, and clear button. Demonstrated proficiency in front-end development and problem-solving skills through this intuitive and functional application.</p>
+                <a href="https://gopinathd1.github.io/HumanSentiment/" target="_blank">Visit Website</a>
+            </div>
+            <div> 
+                <i class="fas fa-laptop-code"></i>
+                <h2>TASK MANAGEMENT</h2>
+                <p>As a Python Developer, I designed and implemented a MySQL database for a Task Management System, creating the TaskManager database and the Tasks table schema. 
+                    I established a connection using MySQL Connector/Python and developed scripts for CRUD operations and bulk task insertion via the executemany method. 
+                    This project demonstrated my expertise in integrating database management with application development for enhanced efficiency and performance.
+                    
+                    ---</p>
+                <a href="https://github.com/Gopinathd1/TaskManagement" target="_blank">Visit Github Page</a>
+
+            </div>
+    
+            <!-- Add more project entries as needed -->
+        </div>
+    </div>
+</div>
+
+<!-------------------SERVICES---------------------------->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="Sub-title">My Portfolio</h1>
+        <div class="Portfolio-list">
+            <div> 
+                <i class="fa-solid fa-money-bill-trend-up"></i>
+                <h2>STOCK MARKET</h2>
+                <P>As an intermediate-level investor, my journey in the stock market has been one of continuous learning, growth, and strategic decision-making. I've navigated through various market conditions, honing my skills in fundamental analysis, technical analysis, and risk management. My experience reflects a blend of successes.
+                </P>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="Contact"></div>
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i> gopinath7734@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> +91-9514858565</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gopinath-d-bca"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Gopinathd1"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="Gopinath_Tech_Resume_.docx" download class="btn btn2">Download Cv</a>
+
+            </div>
+            <div class="contact-right"></div>  
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+           for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-links");
+         document.getElementById(tabname).classList.add("active-tab");
+       }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby9abHnbgWKqbs8g5YtJg23qesfzr20ueKBbRKpwTRvqMeKYMbiDxvDrJridLgscf-GRg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =  document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
